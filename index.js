@@ -157,4 +157,12 @@ bot.on('message', message => {
     }
 })
 
+new Promise((resolve, reject) => {
+  setTimeout(() => reject('error'), 500);
+})
+.catch(error => console.log('caught', error))
+new Promise(() => { throw new Error('exception!'); })
+.catch(error => console.log('caught', error.message))
+
+
 bot.login(token);
