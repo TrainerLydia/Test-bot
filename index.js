@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const ms = require('ms');
 
-const token = "NjYzNDAyNzcxMDcxODkzNTE0.XlvMCQ.-oPGwGdD-JhXgdEYbVocq1hdJkA";
+const token = "NjYzNDAyNzcxMDcxODkzNTE0.XlvMrQ.luRnM2dGE2O77jT53rvZ1fLkXx0";
 
 const PREFTX = '!';
 
